@@ -1,0 +1,70 @@
+.messageList {
+    margin-top: 2px;
+    margin-bottom: 12px; //2px;
+    //box-sizing: border-box;
+    height: calc(70vh);//calc(100vh - 135px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.usersList {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    height: calc(80vh); // - 70px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    textAlign: center;
+}
+
+.redBrownTitle {
+    font-style: normal;
+    font-size: 3.9vw;
+    color: #A52A2A;
+}
+
+.underlineStyle{
+    borderColor: #795548;
+}
+
+
+
+.typingAlarm {
+    margin-left: 2px;
+    margin-top: 2px;
+    height: calc(10vh);
+    font-style: normal;
+    font-size: 2.9vw;
+    color: #D2691E;
+}
+
+.usersList {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    height: calc(80vh - 70px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.userBubble {
+    position:relative;
+    padding:5px;
+    width:60%;
+    margin-bottom: -1em;
+    margin-right:50px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+.BubbleOnTheRight{
+    position:relative;
+    padding:5px;
+    width:60%;
+    margin-bottom: -1em;
+    margin-left:40%;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
