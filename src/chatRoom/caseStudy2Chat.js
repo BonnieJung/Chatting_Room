@@ -219,30 +219,3 @@ export default ExerciseComponent
 
 
 
-//componentDidMount() {
-// console.log('trying to connect to the mongoDB')
-// var request = new Request('http://localhost:5150/users')
-// fetch(request)
-// 	.then(response => {
-// 		if (response.ok) {
-// 			return Promise.resolve(response.json())
-// 		} else {
-// 			return Promise.reject(new Error(response.statusText))
-// 		}
-// 	})
-// 	.then(json => {
-// 		this.setState({users: json})
-// 	})
-// 	.catch(function (error) {
-// 		console.log(error)
-// 	})
-//}
-
-
-// userPressEnter=(key)=>{
-// 	if(key.key=='Enter')
-// 	{
-// 		socket.emit('chat message', this.state.messageContent)
-// 		this.setState({typingMessage:''})//make it empty
-// 	}
-// }
